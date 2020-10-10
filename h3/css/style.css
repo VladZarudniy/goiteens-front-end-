@@ -13,11 +13,11 @@ li {
 
 .l1{
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 }
 
 .r1{
 	display: inline-block;
 	width: 49%/*calc(50%-4px)*/;
-	padding-left: 4px;
+	padding-left: 1.5%;
 }
