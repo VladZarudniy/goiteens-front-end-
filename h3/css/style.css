@@ -1,0 +1,22 @@
+ol{
+	list-style: none;
+
+}
+li {
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+
+.l1{
+	display: inline-block;
+	width: 50%;
+}
+
+.r1{
+	display: inline-block;
+	width: 49%/*calc(50%-4px)*/;
+}
