@@ -1,3 +1,14 @@
+*{
+	box-sizing: border-box; 
+}
+body{
+	text-decoration: none	;
+}
+
+div {
+    display: block;
+}
+
 ol{
 	list-style: none;
 
@@ -14,10 +25,30 @@ li {
 .l1{
 	display: inline-block;
 	width: 49%;
+	padding-right: 30px;
 }
 
 .r1{
 	display: inline-block;
 	width: 49%/*calc(50%-4px)*/;
-	padding-left: 1.5%;
+	padding-left: 30px;
+}
+.sho-to p{
+	padding-right: 500px;
+}
+.sho-to{
+	margin-left: auto;
+	margin-right: auto;
+}
+button{
+	display: inline-block;
+    width: 164px;
+    height: 60px;
+    border: rgb(98, 98, 98) solid 1px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
 }
