@@ -122,7 +122,7 @@ content hr{
 	font-family: 'Kaushan Script', cursive;
 	size: 20px;	
 }
-.liner{
+.line{
 	background-color: rgb(229, 229, 229);
 	position: absolute;
 	left: 357px;
@@ -151,7 +151,7 @@ content hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;	
+   /* margin-top: 100px;	*/
     margin-right: 0;	
 }
 .last_title{
@@ -163,11 +163,12 @@ content hr{
 	align-items: center; 
 }
 .box-btn {
-	margin-top: 100px;
-	padding-bottom: 12px;
+	/*margin-top: 0px;
+	padding-bottom: 0px;*/
 	text-align: right;
-	margin-left: 522px;
+	float: right;
 	padding: 4px;
+	margin: 0
 }
 .footer_hr{
 	width: 80%;
@@ -181,7 +182,13 @@ main{
 	margin: auto;
 
 }
-
+.foot-cont{
+	margin: 0px;
+	max-width: 50%;
+}
+/*.footer{
+	max-width: 50%;
+}*/
 
 
 
