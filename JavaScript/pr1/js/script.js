@@ -26,6 +26,8 @@ const  b1 = false
 const  nick4 = "okey hokey"
 const  x = 53434524
 //
+//
+//
 console.log("nick1 =" ,nick1 , ", type is" , typeof nick1)
 console.log("s = " ,s, ", type is" , typeof s)
 console.log("ok = " ,ok, ", type is" , typeof ok)
