@@ -37,11 +37,11 @@ let a7 = 3 % 5
 let a8 = 5 + '3'
 let a9 = '5' - 3
 let a10 = 75 + 'kg'
-console.log("a6 =",a6)
-console.log("a7 =",a7)
-console.log("a8 =",a8)
-console.log("a9 =",a9)
-console.log("a10 =",a10)
+alert(a6)
+alert(a7)
+alert(a8)
+alert(a9)
+alert(a10)
 
 console.log("")
 console.log("")
@@ -52,7 +52,7 @@ let height = prompt("write height of the box in cm", "23")
 console.log(height)
 let width = prompt("write width of the box in cm", "10")
 console.log(width)
-alert(height*width,"is your box")
+alert(height*width)
 
 console.log(height*width ,'cm is your box')
 console.log("")
