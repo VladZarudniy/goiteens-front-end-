@@ -44,7 +44,7 @@ console.log(result);
 //
 //
 const email = 'vladisal.zarudniy.2019@gmail.com';
-console.log('Does your email habe @? ' + email.includes('@'));
+console.log('Does your email have @? ' + email.includes('@'));
 console.log('long email = ' + email.length);
 //
 //
