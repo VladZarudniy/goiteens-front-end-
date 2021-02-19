@@ -62,7 +62,7 @@ console.log("");
 let heightC = 10;
 let dc = 4;
 let p = 3.14;
-let v = p*((dc/2)**2)*heightC; // 3,14*4
+let v = p*((dc/2)**2)*heightC; // 3,14*4*10
 alert(v,"is V of your cilindr");
 console.log(v);
 
