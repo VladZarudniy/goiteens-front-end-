@@ -36,7 +36,7 @@ while(num2 <= 28){
 let name =''
 do {
     name = prompt('Введіь ім\'я свого улюбленого героя!');
-    
-        console.log(name);
-    
-} while (name.length < 6);
+    if(name.length >= 6)
+        break
+    console.log(name);
+} while (true);
