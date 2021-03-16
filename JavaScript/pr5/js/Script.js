@@ -1,7 +1,7 @@
 let num = 1 
 do{
 	console.log(`${num}`)
-	num = 1+num
+	num += 1
 }while (num <= 10); 
 //
 //
@@ -35,10 +35,8 @@ while(num2 <= 28){
 //
 let name =''
 do {
-    Name = prompt("Введіь ім'я свого улюбленого героя!");
-    if (Name) {
-        console.log(Name);
-    } else {
-        console.log('Були введені не коректні дані! Cпробуйте ще раз!');
-    }
-} while (Name.length < 6);
+    name = prompt('Введіь ім\'я свого улюбленого героя!');
+    
+        console.log(name);
+    
+} while (name.length < 6);
