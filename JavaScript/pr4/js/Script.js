@@ -67,7 +67,7 @@ switch (lang) {
 		break;
 
 	case 'fr':
-		ln = 'March(fr)';
+		ln = 'Mars';
 		break;
 
 	default:
